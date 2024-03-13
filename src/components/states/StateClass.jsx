@@ -16,7 +16,7 @@ export default class StateClass extends Component {
       age: this.state.age * 2,
       name: "Mary"
     });
-  }
+  };
   render() {
     return (
       <div>
