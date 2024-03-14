@@ -1,8 +1,10 @@
 import './App.css'
+
 import MapFilter from './components/map-and-filter/MapFilter'
 import StateClass from './components/states/StateClass'
 import States from './components/states/States'
 import Props from './components/props/Props'
+import Conditionals from './components/conditionals/Conditionals'
 
 function App() {
   
@@ -19,7 +21,10 @@ function App() {
     {/* <StateClass /> */}
 
     {/* Props component */}
-    <Props />
+    {/* <Props /> */}
+
+    {/* Conditionals */}
+    <Conditionals />
     </>
    
   )
