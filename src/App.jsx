@@ -9,6 +9,7 @@ import EventHandler from './components/eventhandling/EventHandling'
 import Keys from './components/keys-react/Keys'
 import Inputs from './components/inputs/ReactInputs'
 import DynamicInputs from './components/dinamicinputs/DynamicInputs'
+import CSSuse from './components/cssstyling/CSSuse'
 
 function App() {
   
@@ -40,7 +41,10 @@ function App() {
     {/* <Inputs /> */}
 
     {/* Dynamic Inputs */}
-    <DynamicInputs />
+    {/* <DynamicInputs /> */}
+
+    {/* CSS in react */}
+    <CSSuse />
     </>
    
   )
