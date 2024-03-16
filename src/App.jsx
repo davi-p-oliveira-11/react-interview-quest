@@ -7,6 +7,7 @@ import Props from './components/props/Props'
 import Conditionals from './components/conditionals/Conditionals'
 import EventHandler from './components/eventhandling/EventHandling'
 import Keys from './components/keys-react/Keys'
+import Inputs from './components/inputs/ReactInputs'
 
 function App() {
   
@@ -32,7 +33,10 @@ function App() {
     {/* <EventHandler /> */}
 
     {/* Keys */}
-    <Keys />
+    {/* <Keys /> */}
+
+    {/* Inputs */}
+    <Inputs />
     </>
    
   )
