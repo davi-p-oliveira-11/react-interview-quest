@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './input.css'
 
 function Inputs() {
    const getInputs = () => {};
