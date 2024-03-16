@@ -6,6 +6,7 @@ import States from './components/states/States'
 import Props from './components/props/Props'
 import Conditionals from './components/conditionals/Conditionals'
 import EventHandler from './components/eventhandling/EventHandling'
+import Keys from './components/keys-react/Keys'
 
 function App() {
   
@@ -28,7 +29,10 @@ function App() {
     {/*<Conditionals /> */}
 
     {/* EventHandling */}
-    <EventHandler />
+    {/* <EventHandler /> */}
+
+    {/* Keys */}
+    <Keys />
     </>
    
   )
