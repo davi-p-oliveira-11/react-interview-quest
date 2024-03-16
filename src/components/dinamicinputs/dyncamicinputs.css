@@ -1,0 +1,13 @@
+
+.input-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+button {
+  margin-top: 30px;
+}

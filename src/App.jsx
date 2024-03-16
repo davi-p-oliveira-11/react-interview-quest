@@ -8,6 +8,7 @@ import Conditionals from './components/conditionals/Conditionals'
 import EventHandler from './components/eventhandling/EventHandling'
 import Keys from './components/keys-react/Keys'
 import Inputs from './components/inputs/ReactInputs'
+import DynamicInputs from './components/dinamicinputs/DynamicInputs'
 
 function App() {
   
@@ -36,7 +37,10 @@ function App() {
     {/* <Keys /> */}
 
     {/* Inputs */}
-    <Inputs />
+    {/* <Inputs /> */}
+
+    {/* Dynamic Inputs */}
+    <DynamicInputs />
     </>
    
   )
