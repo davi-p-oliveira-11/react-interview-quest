@@ -10,6 +10,7 @@ import Inputs from './components/inputs/ReactInputs'
 import DynamicInputs from './components/dinamicinputs/DynamicInputs'
 import CSSuse from './components/cssstyling/CSSuse'
 import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
+import InnerHTML from './components/innerhtml/Innerhtml'
 
 function App() {
   
@@ -47,7 +48,10 @@ function App() {
     {/* <CSSuse /> */}
 
     {/* Uncontrolled component */}
-    <Uncontrolled />
+    {/* <Uncontrolled /> */}
+
+    {/* InnerHTML */}
+    <InnerHTML />
     </>
    
   )
