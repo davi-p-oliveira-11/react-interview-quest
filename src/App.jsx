@@ -1,4 +1,3 @@
-import './App.css'
 
 import MapFilter from './components/map-and-filter/MapFilter'
 import StateClass from './components/states/StateClass'
@@ -10,6 +9,7 @@ import Keys from './components/keys-react/Keys'
 import Inputs from './components/inputs/ReactInputs'
 import DynamicInputs from './components/dinamicinputs/DynamicInputs'
 import CSSuse from './components/cssstyling/CSSuse'
+import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
 
 function App() {
   
@@ -44,7 +44,10 @@ function App() {
     {/* <DynamicInputs /> */}
 
     {/* CSS in react */}
-    <CSSuse />
+    {/* <CSSuse /> */}
+
+    {/* Uncontrolled component */}
+    <Uncontrolled />
     </>
    
   )
