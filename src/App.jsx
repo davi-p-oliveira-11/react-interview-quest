@@ -11,10 +11,10 @@ import DynamicInputs from './components/dinamicinputs/DynamicInputs'
 import CSSuse from './components/cssstyling/CSSuse'
 import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
 import InnerHTML from './components/innerhtml/Innerhtml'
+import RestAPI from './components/rest-api/RestAPI.JSX'
 
 function App() {
   
-
   return (
     <>
     {/*Map filter component */}
@@ -51,7 +51,10 @@ function App() {
     {/* <Uncontrolled /> */}
 
     {/* InnerHTML */}
-    <InnerHTML />
+    {/* <InnerHTML /> */}
+
+    {/* REST API */}
+    <RestAPI />
     </>
    
   )
