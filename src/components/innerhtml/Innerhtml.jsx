@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ReactQuill from 'react-quill';
 import "react-quill/dist/quill.snow.css"
 
+{/*
 function InnerHTML() {
   const [quill, setQuill] = useState("");
   // HTML
@@ -16,6 +17,7 @@ function InnerHTML() {
       <div dangerouslySetInnerHTML={{ __html: data }}></div>
       <div dangerouslySetInnerHTML={{ __html: data2 }}></div>
       {/* JSX */}
+      {/*}
       <p style={{ fontSize: 25, color: "red" }}>This is my name</p>
 
       <ReactQuill onChange={getQuillData}/>
@@ -23,4 +25,6 @@ function InnerHTML() {
   );
 }
 
-export default InnerHTML
+/*}
+
+*/}

@@ -10,8 +10,8 @@ import Inputs from './components/inputs/ReactInputs'
 import DynamicInputs from './components/dinamicinputs/DynamicInputs'
 import CSSuse from './components/cssstyling/CSSuse'
 import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
-import InnerHTML from './components/innerhtml/Innerhtml'
-import RestAPI from './components/rest-api/RestAPI.JSX'
+
+import RestAPI from './components/rest-api/RestAPI'
 
 function App() {
   
@@ -50,8 +50,7 @@ function App() {
     {/* Uncontrolled component */}
     {/* <Uncontrolled /> */}
 
-    {/* InnerHTML */}
-    {/* <InnerHTML /> */}
+   
 
     {/* REST API */}
     <RestAPI />
