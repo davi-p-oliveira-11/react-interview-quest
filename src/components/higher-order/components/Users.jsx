@@ -1,23 +1,7 @@
 import {useState, useEffect} from "react"
+import HigherOrder from "../HigherOrder";
 
-export default function Users() {
-  const [users, setUsers] = useState([]);
-  const getUsers = async () => {
-    let users = await fetch(`https://jsonplaceholder.typicode.com/users`)
-     .then((response) => {
-       return response;
-     })
-     .catch((err) => {
-       return err;
-     });
-
-     setUsers(await users.json());
-  }
-
-  useEffect(() => {
-    getUsers();
-  }, []);
-
+function Users() {
   return (
     <div>
       <h2>Users</h2>
@@ -28,3 +12,8 @@ export default function Users() {
     </div>
   )
 }
+
+
+const UsersComp = HigherOrder("Users");
+
+export default UsersComp;
