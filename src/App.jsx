@@ -12,6 +12,7 @@ import CSSuse from './components/cssstyling/CSSuse'
 import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
 
 import RestAPI from './components/rest-api/RestAPI'
+import Debouncing from './components/debouncing/Debouncing'
 
 function App() {
   
@@ -50,10 +51,11 @@ function App() {
     {/* Uncontrolled component */}
     {/* <Uncontrolled /> */}
 
-   
-
     {/* REST API */}
-    <RestAPI />
+    {/* <RestAPI /> */}
+
+    {/* Debouncing */}
+    <Debouncing />
     </>
    
   )
