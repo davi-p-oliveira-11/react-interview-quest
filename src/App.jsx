@@ -13,7 +13,7 @@ import Uncontrolled from './components/uncontrolled-comp/Uncontrolled'
 
 import RestAPI from './components/rest-api/RestAPI'
 import Debouncing from './components/debouncing/Debouncing'
-import Main from './components/context-api/Main'
+import Main from './components/higher-order/Main'
 
 function App() {
   
@@ -59,6 +59,9 @@ function App() {
     {/* <Debouncing /> */}
 
     {/* Context API */}
+    {/* <Main /> */}
+
+    {/* Higher Order Components */}
     <Main />
     
     </>
